@@ -112,10 +112,14 @@ document.addEventListener("DOMContentLoaded",function(){
         document.querySelector("#new-message").innerHTML = "Kay/o is for you!";
     } else if (result0 == "scout" && result1 == "back" && result2 == "self" && result4 == "no"){
         document.querySelector("#new-message").innerHTML = "Kay/o is for you!";
-    } 
+    }
 
     //Fade
     if (result0 == "scout" && result1 == "front" && result2 == "team" && result4 == "no"){
+        document.querySelector("#new-message").innerHTML = "Fade is for you!";
+    } else if (result0 == "scout" && result1 == "front" && result2 == "self" && result4 == "no"){
+        document.querySelector("#new-message").innerHTML = "Fade is for you!";
+    } else if (result0 == "scout" && result1 == "front" && result2 == "q2B" && result4 == "no"){
         document.querySelector("#new-message").innerHTML = "Fade is for you!";
     }
 
@@ -149,31 +153,54 @@ document.addEventListener("DOMContentLoaded",function(){
         document.querySelector("#new-message").innerHTML = "Omen is for you!";
     } else if (result0 == "tact" && result1 == "front" && result2 == "team" && result3 == "def" && result4 == "yes"){
         document.querySelector("#new-message").innerHTML = "Omen is for you!";
+    } else if (result0 == "tact" && result1 == "q1B" && result2 == "self" && result3 == "off" && result4 == "yes"){
+        document.querySelector("#new-message").innerHTML = "Omen is for you!";
+    } else if (result0 == "tact" && result1 == "q1B" && result2 == "self" && result3 == "q3B" && result4 == "yes"){
+        document.querySelector("#new-message").innerHTML = "Omen is for you!";
+    } else if (result0 == "tact" && result1 == "back" && result2 == "self" && result3 == "q3B" && result4 == "yes"){
+        document.querySelector("#new-message").innerHTML = "Omen is for you!";
+    } else if (result0 == "tact" && result1 == "back" && result2 == "q2B" && result3 == "off" && result4 == "yes"){
+        document.querySelector("#new-message").innerHTML = "Omen is for you!";
+    } else if (result0 == "tact" && result1 == "back" && result2 == "q2B" && result3 == "q3B" && result4 == "yes"){
+        document.querySelector("#new-message").innerHTML = "Omen is for you!";
     }
 
     //Viper
     if (result0 == "tact" && result1 == "back" && result3 == "q3B" && result4 == "no"){
         document.querySelector("#new-message").innerHTML = "Viper is for you!";
-    } else if (result0 == "tact" && result1 == "back" && result2 == "team" && result3 == "off"){
+    } else if (result0 == "tact" && result1 == "back" && result2 == "team" && result3 == "off" && result4 == "no"){
         document.querySelector("#new-message").innerHTML = "Viper is for you!";
-    } else if (result0 == "tact" && result1=="q1B" && result2 == "team" && result3 =="q3B"){
+    } else if (result0 == "tact" && result1=="q1B" && result2 == "team" && result3 =="q3B" && result4 == "no"){
+        document.querySelector("#new-message").innerHTML = "Viper is for you!";
+    } else if (result0 == "tact" && result1=="back" && result2 == "self" && result3 =="off" && result4 == "no"){
+        document.querySelector("#new-message").innerHTML = "Viper is for you!";
+    } else if (result0 == "tact" && result1=="back" && result2 == "self" && result3 =="off" && result4 == "no"){
+        document.querySelector("#new-message").innerHTML = "Viper is for you!";
+    } else if (result0 == "tact" && result1=="back" && result2 == "q2B" && result3 =="off" && result4 == "no"){
         document.querySelector("#new-message").innerHTML = "Viper is for you!";
     }
 
     //Brimstone
     if (result0 == "tact" && result1 == "q1B" && result4 == "no"){
         document.querySelector("#new-message").innerHTML = "Brimstone is for you!";
-    } else if (result0 == "tact" && result1 == "front" && result2 == "team" && result3 == "off" && result4 == "no"){
+    } else if (result0 == "tact" && result1 == "front" && result2 == "team" && result3 == "def" && result4 == "no"){
         document.querySelector("#new-message").innerHTML = "Brimstone is for you!";
-    } else if (result0 == "tact" && result4 == "no"){
+    } else if (result0 == "tact" && result1 == "back" && result2 == "self" && result3 == "def" && result4 == "no"){
+        document.querySelector("#new-message").innerHTML = "Brimstone is for you!";
+    } else if (result0 == "tact" && result1 == "back" && result2 == "q2B" && result3 == "def" && result4 == "no"){
+        document.querySelector("#new-message").innerHTML = "Brimstone is for you!";
+    } else if (result0 == "tact" && result1 == "back" && result2 == "team" && result3 == "def" && result4 == "no"){
         document.querySelector("#new-message").innerHTML = "Brimstone is for you!";
     }
+
 
 
     //Astra
     if (result0 == "tact" && result1 == "back" && result2 == "team" && result4 == "yes"){
         document.querySelector("#new-message").innerHTML = "Astra is for you!";
-    } 
+    } else if (result0 == "tact" && result1=="back" && result2 == "q2B" && result3 =="def" && result4 == "yes"){
+        document.querySelector("#new-message").innerHTML = "Astra is for you!";
+    }
 
     //Harbor
     if (result0 == "tact" && result1 == "q1B" && result2 == "q2B" && result4 == "yes"){
@@ -186,9 +213,48 @@ document.addEventListener("DOMContentLoaded",function(){
         document.querySelector("#new-message").innerHTML = "Harbor is for you!";
     } else if (result0 == "tact" && result1 == "front" && result2 == "self" && result3 == "q3B" && result4 == "yes"){
         document.querySelector("#new-message").innerHTML = "Harbor is for you!";
-    } 
+    } else if (result0 == "tact" && result1=="back" && result2 == "self" && result3 =="off" && result4 == "yes"){
+        document.querySelector("#new-message").innerHTML = "Harbor is for you!";
+    } else if (result0 == "tact" && result1=="back" && result2 == "self" && result3 =="def" && result4 == "yes"){
+        document.querySelector("#new-message").innerHTML = "Harbor is for you!";
+    }
 
 
+
+    //Tank
+
+    //Sage
+    if (result0 == "tank" && result2 == "team" && result3 =="def"){
+        document.querySelector("#new-message").innerHTML = "Sage is for you!";
+    }
+
+    //Chamber
+    if (result0 == "tank" && result2 == "self" && result3 =="q3B"){
+        document.querySelector("#new-message").innerHTML = "Chamber is for you!";
+    } else if (result0 == "tank" && result2 == "self" && result3 =="off"){
+        document.querySelector("#new-message").innerHTML = "Chamber is for you!";
+    }  else if (result0 == "tank" && result2 == "q2B" && result3 =="off"){
+        document.querySelector("#new-message").innerHTML = "Chamber is for you!";
+    }
+
+    //Cypher
+    if (result0 == "tank" && result2 == "q2B" && result3 =="def"){
+        document.querySelector("#new-message").innerHTML = "Cypher is for you!";
+    } else if (result0 == "tank" && result2 == "self" && result3 =="def"){
+        document.querySelector("#new-message").innerHTML = "Cypher is for you!";
+    }
+
+    //Killjoy
+    if (result0 == "tank" && result2 == "q2B" && result3 =="q3B"){
+        document.querySelector("#new-message").innerHTML = "Killjoy is for you!";
+    }
+
+    //Deadlock
+    if (result0 == "tank" && result2 == "team" && result3 =="q3B"){
+        document.querySelector("#new-message").innerHTML = "Deadlock is for you!";
+    } else if (result0 == "tank" && result2 == "team" && result3 =="off"){
+        document.querySelector("#new-message").innerHTML = "Dealock is for you!";
+    }
 
 
 
